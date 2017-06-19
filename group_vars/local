@@ -8,17 +8,17 @@ dotfiles_user_home: "{{ '~' | expanduser }}"
 dotfiles_home: "{{dotfiles_user_home}}/dotfiles"
 
 # Name used in commit messages
-full_name: Steven Loria
+full_name: Matt Frazier
 # Git
 # Github username
-git_user: sloria
+git_user: mfraezz
 # If you use github, this should be the same as the email
 #  used on Github
-git_email: sloria1@gmail.com
+git_email: maf7sm@virginia.edu
 
 # GPG Key ID used to sign git commits
 # See https://github.com/pstadler/keybase-gpg-github setup instructions
-git_signing_key: BDFBA4D7
+git_signing_key: C18B6178
 
 # Vim
 
@@ -35,7 +35,8 @@ osx_homebrew_packages:
   - highlight
   - terminal-notifier
   - wifi-password
-  - youtube-dl
+  - tig
+  # youtube-dl
   - htop-osx
   - httpie
   - postgresql
@@ -49,39 +50,39 @@ osx_cask_packages:
   - firefox
   - google-chrome
   # Utilities
-  - bettertouchtool
-  - iterm2
-  - caffeine
-  - flux
-  - appcleaner
+  #  - bettertouchtool
+  #  - iterm2
+  #  - caffeine
+  #  - flux
+  #  - appcleaner
   # Vagrant/Virtualbox
-  - vagrant
-  - virtualbox
+  #  - vagrant
+  #  - virtualbox
   # chat
-  - limechat
+  #  - limechat
   - flowdock
   # Password manager
-  - 1password
+  #  - 1password
   # Backup/storage
   - crashplan
-  - dropbox
+  #  - dropbox
   # Media/Music
-  - spotify
+  #  - spotify
   - vlc
-  - google-play-music-desktop-player
+  #  - google-play-music-desktop-player
   # Images
   - imageoptim  # optimizing images
   - licecap  # capturing gifs
   # Notetaking
-  - evernote
-  - nvalt
+  #  - evernote
+  #  - nvalt
   - skitch
   # Fonts
-  - font-ubuntu
-  - font-cousine
+  #  - font-ubuntu
+  #  - font-cousine
   # Databases
-  - robomongo  # mongo client
-  - psequel  # postgres client
+  #  - robomongo  # mongo client
+  #  - psequel  # postgres client
   # VPN
   - tunnelblick
 

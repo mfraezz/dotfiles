@@ -34,7 +34,7 @@ vmap <leader>/ <Plug>TComment_<c-_><c-_>
 " Buffers
 Plug 'moll/vim-bbye'  " delete buffer without closing window
 nnoremap X :Bdelete<CR>
-Plug 'vim-scripts/BufOnly.vim'  " delete all but current buffer
+" Plug 'vim-scripts/BufOnly.vim'  " delete all but current buffer
 
 Plug 'scrooloose/nerdtree'
 nnoremap <leader>d :NERDTreeToggle<CR>
